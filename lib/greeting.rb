@@ -1,6 +1,6 @@
 def greeting(name)
-  puts "Hello #{name}. It's nice to meet you."
+  puts "Hi, #{name}! Welcome to the wonderful world of Ruby programming."
 end
-puts "Hi! I'm HAL, what's your name?"
-name = gets.strip
+puts "Please enter your name so that we can greet you more personally:"
+name=gets.strip
 greeting(name)
